@@ -35,7 +35,31 @@ a{
   animation: rainbow 18s ease infinite;
 }
 
+/* IDEA: Arreglar el adorno en cada resolución -_-''
+@media (min-width: 576px) {
+#text{
+  left: 10px;
+}
+}
 
+@media (min-width: 768px) {
+  #text{
+    left: 30px;
+  }
+}
+
+@media (min-width: 992px) {+
+  #text{
+    left: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #text{
+    left: 70px;
+  }
+}
+*/
 
 
 
