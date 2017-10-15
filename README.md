@@ -1,2 +1,2 @@
 # tallerjquery
-![alt text](https://raw.githubusercontent.com/0xb4dc0d3/tallerjquery/img/jquery.png)
+![alt text](https://github.com/0xb4dc0d3/tallerjquery/blob/master/img/jquery.png)
