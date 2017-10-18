@@ -18,10 +18,9 @@ a{
 
 #text
 {
+  top: 20rem;
   border-radius: 30px;
   text-shadow:  1.5px 1.5px #fff;
-  left: 70px;
-  top: 40px;
   position: absolute;
   font-size:15px;
   transform:rotate(150deg);

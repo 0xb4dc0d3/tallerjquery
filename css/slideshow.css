@@ -1,0 +1,39 @@
+body{
+  background: #070000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 100px !important;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 100px;
+}
+
+.container{
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.center {
+    margin: auto;
+}
+
+.row{
+  background: #000;
+}
+
+/* display paused text on top of paused slideshow */
+.cycle-paused:after {
+    content: 'Pausado'; color: white; background: black; padding: 10px;
+    z-index: 500; position: absolute; top: 10px; right: 10px;
+    border-radius: 10px;
+    opacity: .5; filter: alpha(opacity=50);
+}
+
+
+/* need to change default values :) */
+.material-icons{
+  font-size: 3em;
+}
