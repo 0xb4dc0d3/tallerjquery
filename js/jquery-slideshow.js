@@ -12,10 +12,25 @@
     });
 
 
-    // IDEA: Slide con botones prev/next
+    // IDEA: Slide con botones prev/next manual
     $('#slideshow2').cycle({
-      fx:'fade',
-      loader:'wait'
+      fx:'scrollHorz',
+      timeout:0
+    });
+
+// IDEA: Slide con efecto filmgallery xd
+    $('#slideshow3').cycle({
+      fx:'scrollHorz',
+      speed:3000,
+      timeout:1,
+      easing:"linear"
+    });
+
+    // IDEA: Cortina
+    $('#slideshow4').cycle({
+      fx:'tileSlide',
+      timeout:1,
+      speed: 1400
     });
 
   });
